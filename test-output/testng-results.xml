@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="145683" started-at="2019-12-18T17:18:06 PST" finished-at="2019-12-18T17:20:32 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="145683" started-at="2019-12-18T17:18:06 PST" finished-at="2019-12-18T17:20:32 PST">
+      <class name="AppiumTestCases.CheckListApp_TestCases">
+        <test-method status="PASS" signature="setupReports()[pri:0, instance:AppiumTestCases.CheckListApp_TestCases@12cdcf4]" name="setupReports" is-config="true" duration-ms="269" started-at="2019-12-18T17:18:06 PST" finished-at="2019-12-18T17:18:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReports -->
+        <test-method status="PASS" signature="basicActionsTC1()[pri:1, instance:AppiumTestCases.CheckListApp_TestCases@12cdcf4]" name="basicActionsTC1" duration-ms="57931" started-at="2019-12-18T17:18:06 PST" finished-at="2019-12-18T17:19:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicActionsTC1 -->
+        <test-method status="PASS" signature="dragnDrop()[pri:2, instance:AppiumTestCases.CheckListApp_TestCases@12cdcf4]" name="dragnDrop" duration-ms="51998" started-at="2019-12-18T17:19:04 PST" finished-at="2019-12-18T17:19:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragnDrop -->
+        <test-method status="FAIL" signature="deleteCheckList()[pri:3, instance:AppiumTestCases.CheckListApp_TestCases@12cdcf4]" name="deleteCheckList" duration-ms="35399" started-at="2019-12-18T17:19:56 PST" finished-at="2019-12-18T17:20:32 PST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2 deleted.] but found [2 deleted]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2 deleted.] but found [2 deleted]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at AppiumTestCases.CheckListApp_TestCases.deleteCheckList(CheckListApp_TestCases.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCheckList -->
+        <test-method status="PASS" signature="reportTearDown()[pri:0, instance:AppiumTestCases.CheckListApp_TestCases@12cdcf4]" name="reportTearDown" is-config="true" duration-ms="3" started-at="2019-12-18T17:20:32 PST" finished-at="2019-12-18T17:20:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- AppiumTestCases.CheckListApp_TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
